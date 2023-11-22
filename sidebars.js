@@ -47,6 +47,7 @@ const sidebars = {
         },
         'learn/fees',
         'learn/glossary',
+        'learn/vesting-contract',
         'learn/assets',
       ],
     },
@@ -127,6 +128,15 @@ const sidebars = {
                 },
               ],
             },
+                        {
+              type: 'category',
+              label: 'Wallet Kit',
+              collapsed: true,
+              items: [
+                'develop/wallet-kit/getting-started',
+                'develop/wallet-kit/migration',
+              ],
+            },
             {
               type: 'category',
               label: 'Wallet Provider',
@@ -159,6 +169,7 @@ const sidebars = {
           collapsed: true,
           items: [
             'develop/guides/initial',
+            'develop/guides/register-feeshare',
             'develop/guides/sign-with-multisig',
             'develop/guides/start-lcd',
             'develop/vesting',
